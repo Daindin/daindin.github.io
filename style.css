@@ -6,7 +6,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Lobster', cursive;
+	font-family: 'Chivo', sans-serif;
 	aspect-ratio: 16/9;
 }
 
@@ -23,7 +23,7 @@ container {
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 	color: #f1f1f1; /* Grey text */
-	width: 1000px; /* Full width */
+	width: 100rem; /* Full width */
 	padding: 7px; /* Some padding */
 	border-radius: 15%;
 	-webkit-border-radius: 20px;
@@ -36,11 +36,14 @@ container2 {
 	margin: 0 auto; /* Center it */
 }
 
+h1 {
+	font-size: 60px;
+}
 .container2 .content1 {
-	font-size: 30px;
+	font-size: 40px;
 	line-height: 1;
 	position: absolute; /* Position the background text */
-	top: 7rem; /* At the bottom. Use top:0 to append it to the top */
+	top: 9rem; /* At the bottom. Use top:0 to append it to the top */
 	left: 1rem;
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
@@ -68,6 +71,9 @@ hr {
 	color: white;
 	border-color: white;
 	margin: auto 50px;
+	padding: 5px 20px;
+	font-size: 30px;
+	border-width: 2px;
 }
 
 .btn-outline-secondary {
@@ -76,9 +82,8 @@ hr {
 
 .btn-outline-primary:hover,
 .btn-outline-secondary:hover {
-	background-color: rgb(191, 191, 191);
+	background-color: rgb(191, 191, 191, 0.5);
 	border-color: white;
-	color: black;
 }
 
 .bottom-curve {
