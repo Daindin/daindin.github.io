@@ -37,7 +37,7 @@ container2 {
 }
 
 .container2 .content1 {
-	font-size: 30px;
+	font-size: 50px;
 	line-height: 1;
 	position: absolute; /* Position the background text */
 	top: 7rem; /* At the bottom. Use top:0 to append it to the top */
