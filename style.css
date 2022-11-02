@@ -63,6 +63,15 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+.card:hover {
+	box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.7);
+	transform: scale(1.2);
+}
+
+.card > p :hover {
+	text-overflow: ellipsis;
+}
+
 .imgsize {
 	height: auto;
 	width: 100px;
